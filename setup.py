@@ -1,11 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='modules',
+    name='src',
     version='1.0',
     description='My useful description',
     author='Tim Hill',
     author_email='tha111@sfu.ca',
-    packages=['modules/'],
+    packages=['src/'],
     license='MIT'
     )

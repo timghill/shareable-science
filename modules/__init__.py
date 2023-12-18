@@ -1,1 +1,1 @@
-from .modules import func
+from .modules import run_simulation

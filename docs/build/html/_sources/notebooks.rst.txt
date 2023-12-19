@@ -1,8 +1,14 @@
 Notebooks
 =========
 
-A list of notebook tutorials:
+A list of links to non-interactive html rendered notebooks.
 
 .. toctree::
-   
-   notebooks/notebook.ipynb
+   :maxdepth: 1 
+   :caption: Notebook examples
+
+   ../../notebooks/notebook.ipynb
+
+These notebooks can be viewed interactively using `binder <https://mybinder.org/v2/gh/timghill/shareable-science/main?labpath=notebooks>`_
+
+

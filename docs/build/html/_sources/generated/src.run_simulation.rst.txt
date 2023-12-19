@@ -1,6 +1,0 @@
-﻿src.run\_simulation
-===================
-
-.. currentmodule:: src
-
-.. autofunction:: run_simulation

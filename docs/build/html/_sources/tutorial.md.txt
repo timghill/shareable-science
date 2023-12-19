@@ -10,3 +10,7 @@ We have lists
  * more things
 
 See also the [basic usage examples](usage.md) and the [API](api.rst)
+
+## A notebook tutorial
+
+A notebook: [notebook](notebooks/notebook.ipynb)

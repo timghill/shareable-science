@@ -5,7 +5,17 @@
 import numpy as np
 
 def run_simulation():
-    """Produce mock 'simulation' data (Gaussian noise)"""
+    """Produce mock 'simulation' data (Gaussian noise)
+
+    Some longer explanation.
+
+    Parameters
+    ----------
+        None
+    
+    Returns
+    -------
+        None"""
     X = np.random.normal(size=(100,100))
     return X
 

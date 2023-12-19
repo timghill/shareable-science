@@ -8,6 +8,7 @@ This repo shows several good (not necessarily best) practices:
  * Working on the `dev` branch to maintain a clean `main` branch and merging with Pull Requests or `git merge` on the command line
  * Writing functional code in the `src/` directory and importing this into analysis `notebooks/` via the `setup.py` file
  * Online execution using [mybinder.org](https://mybinder.org/)
+ * Online documentation using GitHub Pages [timghill/github.io/shareable-science](https://timghill.github.io/shareable-science/)
 
 ## Local installation
 

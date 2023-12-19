@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # Doc builds
-docs/build/doctrees
+docs/build/doctrees/

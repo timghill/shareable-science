@@ -12,8 +12,8 @@ This documentation serves as a template for project documentation, including a `
    :maxdepth: 1
    :caption: Documentation contents:
 
+   installation
    usage
-   notebooks
    api
 
 Tutorials

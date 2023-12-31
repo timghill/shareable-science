@@ -9,8 +9,5 @@ We have lists
  * One thing
  * more things
 
-See also the [basic usage examples](usage.md) and the [API](api.rst)
+See also the [basic usage examples](usage.md), the [API](api.rst), and the [notebook tutorials](notebooks.rst).
 
-## A notebook tutorial
-
-A notebook: [notebook](notebooks/notebook.ipynb)

@@ -22,3 +22,7 @@ The docs are built using [sphinx](https://www.sphinx-doc.org/en/master/) with ex
 ## Python notebooks
 
 This documentation uses a trick to render static python notebooks using the `nbsphinx` extension. Once you've added this extension to `docs/conf.py`, ...
+
+## Online docs with GitHub pages
+
+The docs are served online with GitHub pages. This is setup using a GitHub action that is triggered by pushing to the `main` branch. See the online action for more details.

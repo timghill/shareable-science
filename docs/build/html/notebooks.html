@@ -15,7 +15,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Docs tutorial" href="notebooks/notebook01.html" />
-    <link rel="prev" title="A markdown tutorial" href="tutorial.html" />
+    <link rel="prev" title="Usage" href="usage.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,7 +34,7 @@
             
   <section id="notebooks">
 <h1>Notebooks<a class="headerlink" href="#notebooks" title="Permalink to this heading">¶</a></h1>
-<p>A list of links to non-interactive html rendered notebooks.</p>
+<p>A list of links to non-interactive html rendered notebooks. The first example is rendered from a notebook directly inside the docs directory, while the second example is rendered from a notebook external to the docs directory; this second example is a little trickier to get running!</p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Notebook examples</span></p>
 <ul>
@@ -43,6 +43,41 @@
 </ul>
 </div>
 <p>These notebooks can be viewed interactively using <a class="reference external" href="https://mybinder.org/v2/gh/timghill/shareable-science/main?labpath=notebooks">binder</a></p>
+<section id="notebooks-in-the-docs-directory">
+<h2>Notebooks in the docs directory<a class="headerlink" href="#notebooks-in-the-docs-directory" title="Permalink to this heading">¶</a></h2>
+<p>It’s easy to include notebooks that are stored in the docs directory. If this page builds from <code class="docutils literal notranslate"><span class="pre">docs/source/notebooks.rst</span></code>, and the notebook is <code class="docutils literal notranslate"><span class="pre">docs/source/notebooks/notebook01.ipynb</span></code>, all we need to do is:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Add the <code class="docutils literal notranslate"><span class="pre">nbsphinx</span></code> extension to <code class="docutils literal notranslate"><span class="pre">docs/conf.py</span></code>, and</p></li>
+<li><p>Add a table of contents that includes <code class="docutils literal notranslate"><span class="pre">notebooks/notebook01</span></code>.</p></li>
+</ol>
+</div></blockquote>
+<p>See the source <a class="reference external" href="https://github.com/timghill/shareable-science/blob/main/docs/source/">directory tree</a>.</p>
+</section>
+<section id="external-notebooks">
+<h2>External notebooks<a class="headerlink" href="#external-notebooks" title="Permalink to this heading">¶</a></h2>
+<p>By default, <code class="docutils literal notranslate"><span class="pre">nbsphinx</span></code> only looks for notebooks under the <code class="docutils literal notranslate"><span class="pre">docs/source</span></code> directory. But what if you have notebooks you’ve written in some other directory, maybe <code class="docutils literal notranslate"><span class="pre">notebooks/</span></code>? We will use the <a class="reference external" href="https://nbsphinx-link.readthedocs.io/en/latest/">nbsphinx-link</a> extension to do include external notebooks.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Install <code class="docutils literal notranslate"><span class="pre">nbsphinx-link</span></code> (Just a <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">nbsphinx-link</span></code>),</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">nbsphinx_link</span></code> to <code class="docutils literal notranslate"><span class="pre">docs/conf.py</span></code>,</p></li>
+<li><p>For a notebook called <code class="docutils literal notranslate"><span class="pre">mynotebook.ipynb</span></code> (on some path outside of <code class="docutils literal notranslate"><span class="pre">docs/source</span></code>), create a file <code class="docutils literal notranslate"><span class="pre">mynotebook.nblink</span></code> inside the docs source where you would like to link the notebook to. This file is a json file that just points to the notebook location, i.e. it looks like</p></li>
+</ol>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;path&quot;</span><span class="p">:</span> <span class="s2">&quot;path/to/mynotebook.ipynb&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>where the path resolves correctly (this can take some trial and error…).</p>
+</div></blockquote>
+<ol class="arabic">
+<li><p>Include this linked file in a table of contents as if it were the notebook.</p>
+<p>See the source directory tree linked above for the source for these examples!</p>
+</li>
+</ol>
+</div></blockquote>
+</section>
 </section>
 
 
@@ -63,24 +98,21 @@
 
 <h3>Navigation</h3>
 <p class="caption" role="heading"><span class="caption-text">Documentation contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Notebooks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
 </ul>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="tutorial.html">A markdown tutorial</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Notebooks</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="notebooks/notebook01.html">Docs tutorial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="notebooks/notebook.html">Tutorial from external directory</a></li>
-</ul>
-</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Notebooks</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="tutorial.html" title="previous chapter">A markdown tutorial</a></li>
+      <li>Previous: <a href="usage.html" title="previous chapter">Usage</a></li>
       <li>Next: <a href="notebooks/notebook01.html" title="next chapter">Docs tutorial</a></li>
   </ul></li>
 </ul>

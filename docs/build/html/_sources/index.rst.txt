@@ -13,6 +13,7 @@ This documentation serves as a template for project documentation, including a `
    :caption: Documentation contents:
 
    usage
+   notebooks
    api
 
 Tutorials
@@ -20,7 +21,7 @@ Tutorials
 Tutorials can be included as a docs-specific writeup (`tutorial.md <tutorial.md>`_) and as notebooks that render to html. The notebooks tutorials can also be rendered as interactive Jupyter Lab notebooks using `binder <https://mybinder.org/>`_. The tutorials available are:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    tutorial
    notebooks

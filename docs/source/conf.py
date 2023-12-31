@@ -38,3 +38,22 @@ source_suffix = {
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+nbsphinx_prolog = (
+r"""
+{% if env.metadata[env.docname]['nbsphinx-link-target'] %}
+{% set docpath = env.metadata[env.docname]['nbsphinx-link-target'] %}
+{% else %}
+{% set docpath = "source/" + env.doc2path(env.docname, base=None) %}
+{% endif %}
+
+.. only:: html
+
+    .. role:: raw-html(raw)
+        :format: html
+
+    .. nbinfo::
+        This page was generated from `{{ docpath }}`__.
+
+    __ https://github.com/timghill/shareable-science/tree/main/docs/""" + r"{{ docpath }}"
+)

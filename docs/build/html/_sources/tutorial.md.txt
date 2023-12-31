@@ -1,6 +1,6 @@
-# src tutorial
+# A markdown tutorial
 
-Here's my tutorial for the `src/` code, written in Markdown this time.
+This is a tutorial for the source code written in Markdown (see the source on [GitHub](https://github.com/timghill/shareable-science/blob/main/docs/source/tutorial.md). The rest of this tutorial is not finished, but it shows a few Markdown formatting options.
 
 ## A second header
 

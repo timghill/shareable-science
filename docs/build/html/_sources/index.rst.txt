@@ -17,7 +17,7 @@ More project description goes here.
    api
 
 Tutorials
---------
+---------
 There are a suite of notebook tutorials and examples in the `notebooks/ <https://github.com/timghill/shareable-science/tree/main/notebooks>`_ directory on GitHub. These can be viewed rendered to non-interactive html pages or as interactive Jupyter Lab notebooks using `binder <https://mybinder.org/>`_.
 
 .. toctree::

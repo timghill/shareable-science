@@ -27,19 +27,19 @@ External notebooks
 
 By default, ``nbsphinx`` only looks for notebooks under the ``docs/source`` directory. But what if you have notebooks you've written in some other directory, maybe ``notebooks/``? We will use the `nbsphinx-link <https://nbsphinx-link.readthedocs.io/en/latest/>`_ extension to do include external notebooks.
 
- #. Install ``nbsphinx-link`` (Just a ``pip install nbsphinx-link``),
- #. Add ``nbsphinx_link`` to ``docs/conf.py``,
- #. For a notebook called ``mynotebook.ipynb`` (on some path outside of ``docs/source``), create a file ``mynotebook.nblink`` inside the docs source where you would like to link the notebook to. This file is a json file that just points to the notebook location, i.e. it looks like
+ 1. Install ``nbsphinx-link`` (Just a ``pip install nbsphinx-link``),
+ 2. Add ``nbsphinx_link`` to ``docs/conf.py``,
+ 3. For a notebook called ``mynotebook.ipynb`` (on some path outside of ``docs/source``), create a file ``mynotebook.nblink`` inside the docs source where you would like to link the notebook to. This file is a json file that just points to the notebook location, i.e. it looks like
 
    .. code-block::
       
       {
           "path": "path/to/mynotebook.ipynb"
       }
-
+  
    where the path resolves correctly (this can take some trial and error...).
 
- #. Include this linked file in a table of contents as if it were the notebook.
+ 4. Include this linked file in a table of contents as if it were the notebook.
 
     See the source directory tree linked above for the source for these examples!
 

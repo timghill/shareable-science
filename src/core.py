@@ -40,4 +40,3 @@ def plot_simulation(X, cmap=cmocean.cm.balance,
                      Min and max colorbar limits
     """
     plt.pcolormesh(X, cmap=cmap, vmin=vmin, vmax=vmax)
-

@@ -77,9 +77,9 @@ The docs are built using [sphinx](https://www.sphinx-doc.org/en/master/) with ex
 
 ## Online notebooks running with `mybinder`
 
-The real purpose of this repo is to explore using `mybinder` to run the code online, with no local installation required. You can run the code with `mybinder` by simply navigating to the appropriate url. To run the `dev` branch notebooks, go to [mybinder.org/v2/gh/timghill/shareable-science/dev?labpath=notebooks](https://mybinder.org/v2/gh/timghill/shareable-science/dev?labpath=notebooks)
+This repo also explores using `mybinder` to run the code online, with no local installation required. You can run the code with `mybinder` by simply navigating to the appropriate url. To run the `dev` branch notebooks, go to [mybinder.org/v2/gh/timghill/shareable-science/dev?labpath=notebooks](https://mybinder.org/v2/gh/timghill/shareable-science/dev?labpath=notebooks)
 
-To run the `main` branch notebooks, replace `dev` with `main`, [mybinder.org/v2/gh/timghill/shareable-science/main?labpath=notebooks](https://mybinder.org/v2/gh/timghill/shareable-science/main?labpath=notebooks)
+To run the `main` branch notebooks, replace `dev` with `main`, [mybinder.org/v2/gh/timghill/shareable-science/main?labpath=notebooks](https://mybinder.org/v2/gh/timghill/shareable-science/main?labpath=notebooks).
 
 ## Usage
 

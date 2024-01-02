@@ -22,6 +22,7 @@ Tutorials can be included as a docs-specific writeup (`tutorial.md <tutorial.md>
 
 .. toctree::
    :maxdepth: 1
+   :caption: Tutorials:
    
    tutorial
    notebooks

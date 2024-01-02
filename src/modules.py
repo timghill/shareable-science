@@ -7,7 +7,7 @@ import numpy as np
 def run_simulation():
     """Produce mock 'simulation' data (Gaussian noise)
 
-    Some longer explanation.
+    Some longer explanation about purpose and science.
 
     Parameters
     ----------

@@ -13,6 +13,7 @@
 
    .. autosummary::
    
+      plot_simulation
       run_simulation
    
    

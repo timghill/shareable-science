@@ -8,4 +8,3 @@ Here is the API desription of all public package contents. This part of the docu
 
    src
    src.modules
-   src.modules.run_simulation

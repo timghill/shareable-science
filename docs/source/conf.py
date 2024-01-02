@@ -23,6 +23,8 @@ extensions = [
         'nbsphinx_link',
         ]
 
+napoleon_use_admonition_for_examples = True
+
 templates_path = ['_templates']
 exclude_patterns = []
 
@@ -37,6 +39,12 @@ source_suffix = {
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'alabaster'
+
+html_theme_options = {
+    'github_user': 'timghill',
+    'github_repo': 'shareable-science',
+}
+
 html_static_path = ['_static']
 
 # This code adds a banner to notify the viewer of pages that

@@ -6,7 +6,7 @@
 Welcome to shareable-science's documentation!
 =============================================
 
-This documentation serves as a template for project documentation, including a `usage <usage.rst>`_ page, tutorials, and automatically generated API documentation, and as a guide for including jupyter notebooks in this type of documentation.
+This documentation serves as a template for project documentation, including a usage page, tutorials, and automatically generated API documentation, and as a guide for including jupyter notebooks in this type of documentation.
 
 .. toctree::
    :maxdepth: 1
@@ -26,11 +26,4 @@ Tutorials can be included as a docs-specific writeup (`tutorial.md <tutorial.md>
    
    tutorial
    notebooks
-
    
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

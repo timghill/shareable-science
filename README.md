@@ -74,6 +74,15 @@ The docs are built using [sphinx](https://www.sphinx-doc.org/en/master/) with ex
  * `myst_parser` for reading markdown files,
  * `nbsphinx` for including python notebooks (see next section).
 
+ Note: if you've updated the contents or naming of the source code, you need to:
+
+  * Reinstall the source code (with `pip install --user .` for example),
+  * Regenerate the autosummaries,
+    ```bash
+    sphinx-apidoc -f -o source/ ../src
+    ```
+  * Then remake the docs with `make html`.
+
 
 ## Online notebooks running with `mybinder`
 

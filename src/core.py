@@ -2,6 +2,9 @@ import numpy as np
 import cmocean
 from matplotlib import pyplot as plt
 
+"""Core module-level docstring here
+"""
+
 def run_simulation(size=(100,100)):
     """Produce mock 'simulation' data (Gaussian noise)
 

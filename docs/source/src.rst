@@ -4,10 +4,10 @@ src package
 Submodules
 ----------
 
-src.modules module
-------------------
+src.core module
+---------------
 
-.. automodule:: src.modules
+.. automodule:: src.core
    :members:
    :undoc-members:
    :show-inheritance:

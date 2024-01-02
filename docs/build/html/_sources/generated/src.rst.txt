@@ -27,5 +27,6 @@
    :toctree:
    :recursive:
 
+   src.core
    src.modules
 

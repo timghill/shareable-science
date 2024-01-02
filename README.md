@@ -12,6 +12,7 @@ This repo shows several good (not necessarily best) practices:
  * Online execution using [mybinder.org](https://mybinder.org/)
  * Online documentation using GitHub Pages: [timghill/github.io/shareable-science](https://timghill.github.io/shareable-science/)
    * The documentation inlucdes a static rendering of notebooks as well as links to the interactive versions
+ * Contiguous Integration (CI) (i.e., automated testing on each push to `main` using a GitHub action)
 
 ## Installation
 
@@ -95,6 +96,10 @@ To run the `main` branch notebooks, replace `dev` with `main`, [mybinder.org/v2/
 ## Usage
 
 For now, the package `src/` does not contain any scientifically interesting code. The function `src.run_simulation()` simply returns a 100 x 100 array of normally distributed random numbers. Replace this module with any functional code for your project and document it here!
+
+## Testing
+
+TODO. Explain testing with `pytest` and GitHub action (`.github/workflows/python-app.yml`).
 
 ## Scalable directory structure
 

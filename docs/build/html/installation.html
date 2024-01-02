@@ -34,7 +34,34 @@
             
   <section id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this heading">¶</a></h1>
-<p>Installation instructions. TODO.</p>
+<p>You can run the code and notebooks locally (in addition to online with <a class="reference external" href="https://mybinder.org/">mybinder.org</a>) just like with any other project. This is a pure python package so installation is straightforward. The code is built to install using a <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> script or with <code class="docutils literal notranslate"><span class="pre">pip</span></code>.</p>
+<p>First, clone the repository</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/timghill/shareable-science.git
+</pre></div>
+</div>
+<p>Then navigate into the <code class="docutils literal notranslate"><span class="pre">shareable-science/</span></code> root. We need to install the <code class="docutils literal notranslate"><span class="pre">src/</span></code> python contents. Move into the <code class="docutils literal notranslate"><span class="pre">src/</span></code> directory and run <code class="docutils literal notranslate"><span class="pre">setup.py</span> <span class="pre">install</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>src/
+sudo<span class="w"> </span>python3<span class="w"> </span>setup.py<span class="w"> </span>install
+</pre></div>
+</div>
+<p>Or, if you don’t have root priveleges, add the <code class="docutils literal notranslate"><span class="pre">--user</span></code> flag to a <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span></code> command (from inside the <code class="docutils literal notranslate"><span class="pre">src/</span></code> directory)</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip3<span class="w"> </span>install<span class="w"> </span>.<span class="w"> </span>--user
+</pre></div>
+</div>
+<p>Now you should be able to import the <code class="docutils literal notranslate"><span class="pre">src</span></code> package from python. You can test this interactively,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3
+&gt;&gt;&gt;<span class="w"> </span>import<span class="w"> </span>src
+</pre></div>
+</div>
+<p>To run and explore the notebooks, start a jupyter notebook server as usual,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter<span class="w"> </span>notebook
+</pre></div>
+</div>
+<p>and start exploring the <code class="docutils literal notranslate"><span class="pre">notebooks/</span></code> directory!</p>
+<section id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
+<p>See <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code>. Local installation requires <code class="docutils literal notranslate"><span class="pre">numpy</span></code>, <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>, and <code class="docutils literal notranslate"><span class="pre">cmocean</span></code>.</p>
+</section>
 </section>
 
 

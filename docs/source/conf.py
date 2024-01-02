@@ -39,6 +39,9 @@ source_suffix = {
 html_theme = 'alabaster'
 html_static_path = ['_static']
 
+# This code adds a banner to notify the viewer of pages that
+# were automatically generated using nbsphinx and points the
+# viewer to the source *.ipynb on GitHub
 nbsphinx_prolog = (
 r"""
 {% if env.metadata[env.docname]['nbsphinx-link-target'] %}

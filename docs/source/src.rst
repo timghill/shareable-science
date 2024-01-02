@@ -12,6 +12,14 @@ src.core module
    :undoc-members:
    :show-inheritance:
 
+src.helpers module
+------------------
+
+.. automodule:: src.helpers
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 

@@ -34,5 +34,6 @@
    :recursive:
 
    src.core
+   src.helpers
    src.modules
 

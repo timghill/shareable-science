@@ -21,6 +21,7 @@ extensions = [
         'myst_parser',
         'nbsphinx',
         'nbsphinx_link',
+        'sphinx_copybutton',
         ]
 
 napoleon_use_admonition_for_examples = True

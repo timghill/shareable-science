@@ -22,7 +22,8 @@ class TestClass:
 
     def test_min(self):
         x = src.run_simulation()
-        assert np.min(x)<0
+        # This test is purposely wrong
+        assert np.min(x)==1e12
 
     def test_shape(self):
         x = src.run_simulation()

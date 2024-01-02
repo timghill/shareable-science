@@ -3,6 +3,7 @@ A respository for testing some shareable, reproducible scientific software tools
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timghill/shareable-science/main?labpath=notebooks)
 [![shareable-science](https://github.com/timghill/shareable-science/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/timghill/shareable-science/actions/workflows/python-app.yml)
+[![Deploy static content to Pages](https://github.com/timghill/shareable-science/actions/workflows/static.yml/badge.svg)](https://github.com/timghill/shareable-science/actions/workflows/static.yml)
 
 This repo shows several good (not necessarily best) practices:
 

@@ -5,6 +5,6 @@ Here is the API desription of all public package contents. This part of the docu
 
 .. autosummary::
    :toctree: generated
+   :recursive:
 
    src
-   src.modules

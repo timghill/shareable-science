@@ -21,3 +21,11 @@
 
 
 
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   src.modules
+

@@ -1,4 +1,4 @@
-﻿src.modules
+src.modules
 ===========
 
 .. automodule:: src.modules
